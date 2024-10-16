@@ -1,0 +1,78 @@
+@media only screen and (max-width: 426px) {
+  #header .province .info-portal {
+    padding-top: 18px !important;
+    font-size: 15px !important;
+  }
+  #header .province .deparment-of-home-affairs {
+    font-size: 19px !important;
+  }
+  #header .date-weather {
+    display: none !important;
+  }
+  .banner-quockhanh {
+    display: none;
+  }
+  .calendar-work {
+    margin-top: 15px;
+  }
+  .media-nav {
+    display: none;
+  }
+  .news {
+    flex-direction: column;
+    width: 100%;
+  }
+  .news .link-news {
+    width: 100% !important;
+  }
+  .conduct .row2 {
+    display: none;
+  }
+  #footer .col-left {
+    display: none;
+  }
+  #footer img {
+    width: 80px !important;
+  }
+  #footer .info-footer ul {
+    padding-left: 10px;
+    max-width: 320px !important;
+  }
+  #footer .info-footer ul :nth-child(5) {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  #header {
+    height: 180px !important;
+  }
+  .banner-quockhanh {
+    display: none;
+  }
+  .conduct .row2 {
+    display: none;
+  }
+  #footer .col-left {
+    display: none;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #header .province .deparment-of-home-affairs {
+    font-size: 26px !important;
+  }
+  #header .date-weather {
+    justify-content: center;
+  }
+  #header .date-weather .icon1 {
+    display: none !important;
+  }
+  .banner-quockhanh {
+    display: none;
+  }
+  .conduct .row2 {
+    display: none;
+  }
+  #footer .col-left {
+    display: none;
+  }
+}/*# sourceMappingURL=reponsive.css.map */
